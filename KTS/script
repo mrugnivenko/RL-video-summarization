@@ -1,0 +1,4 @@
+for file in *.py
+do
+	2to3 $file
+done
